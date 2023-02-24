@@ -3,5 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello GoLang!")
+
+	var firstNum int = 1
+	var secondNum = 20
+	thirdNum := 30
+	fmt.Println(firstNum, secondNum, thirdNum)
 }
