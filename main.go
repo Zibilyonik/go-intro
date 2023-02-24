@@ -4,8 +4,16 @@ import "fmt"
 
 func main() {
 
-	var firstNum int = 1
-	var secondNum = 20
-	thirdNum := 30
-	fmt.Println(firstNum, secondNum, thirdNum)
+	var (
+		name string
+		age  int
+	)
+	fmt.Print("Enter your name:")
+	fmt.Scan(&name)
+	fmt.Println("Your input is:", name)
+	fmt.Print("Enter your age:")
+	fmt.Scan(&age)
+	fmt.Println("Your input is:", age)
+	fmt.Println("Your name is:", name, "and your age is:", age)
+
 }
